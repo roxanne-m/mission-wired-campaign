@@ -9,17 +9,42 @@ header {
   margin: 25px;
 }
 
+/* Callout Box Outer Styling */
 .callout-right {
   float: right;
-  width: 200px;
+  width: 165px;
   margin-left: 10px;
   margin-right: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
+  font-size: 15px;
   text-align: center;
   background-color: black;
   color: white;
 }
 
+/******************************/
+/* CALLOUT BOX INNER STYLING */
+
+/* Link styling in callout box */
+.link {
+  margin: 0px 0px 7px 0px;
+}
+
+/* Header 3 "STAND WITH ANNE" */
+h3 {
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+/* Image styling */
+.image {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/***************************/
+
+/* Flex displays */
 .group {
   display: flex;
   flex-direction: row;
@@ -31,7 +56,7 @@ header {
   padding: 0;
 }
 
-/* Link colors */
+/* Link colors remain same white color due to dim contrast when link is visited*/
 a:visited,
 a:link {
   color: white;
