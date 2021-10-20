@@ -62,7 +62,7 @@ a:link {
   color: white;
 }
 
-/* Mobile Media Query */
+/* Mobile Media Query for devices of max-width 450px */
 @media all and (max-width: 450px) {
   .group,
   .item,
