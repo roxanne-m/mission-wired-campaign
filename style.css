@@ -61,3 +61,18 @@ a:visited,
 a:link {
   color: white;
 }
+
+/* Mobile Media Query */
+@media all and (max-width: 450px) {
+  .group,
+  .item,
+  .callout-right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .callout-right {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
